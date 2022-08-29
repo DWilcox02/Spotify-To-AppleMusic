@@ -1,7 +1,10 @@
 
 def spotifyToAppleLink(link):
     # heavy lifting to get apple link
-
+    # webscrape link
+    # get name and artist
+    # look up name and artist on apple music
+    # get share link and return
     newLink = "Apple music version: " + link
     return newLink
 
