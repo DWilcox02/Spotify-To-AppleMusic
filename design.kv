@@ -1,0 +1,35 @@
+#:kivy 1.2.0
+
+<DisplayScreen>:
+    GridLayout:
+        cols: 1
+        GridLayout:
+            cols: 1
+            padding: 15, 15
+            spacing: 20, 20
+            Label: 
+                text: "Spotify to Apple Music link"
+                font_size: '20sp'
+            TextInput:
+                id: spotify
+                hint_text: "Spotify Link"
+            TextInput:
+                id: appleMusic
+                hint_text: "Apple Music Link"
+            GridLayout:
+                cols: 2
+                spacing: 50, 100
+                padding: 35, 35
+                Button:
+                    text: "Spotify to Apple"
+                    on_press: root.spotifyToApple(root.ids.spotify.text)
+                    size_hint: 0.3, 0.5
+                    pos_hint: {'center_x': 0.5, 'center_y': 0.6}
+                Button:
+                    text: "Apple to Spotify"
+                    on_press: root.appleToSpotify(root.ids.appleMusic.text)
+                    size_hint: 0.3, 0.5
+                    pos_hint: {'center_x': 0.5, 'center_y': 0.6}
+            Label:
+                id: status
+                text: ""
