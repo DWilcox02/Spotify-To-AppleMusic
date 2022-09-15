@@ -1,3 +1,5 @@
+import applemusicpy
+
 
 def spotifyToAppleLink(link):
     # heavy lifting to get apple link
