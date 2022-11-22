@@ -14,3 +14,8 @@ https://itnext.io/how-to-store-passwords-and-api-keys-in-project-code-1eaf5cb235
 
 https://stackoverflow.com/questions/22623798/google-search-with-python-requests-library
 
+```
+source ~/.virtualenvs/KivyApp/bin/activate
+```
+
+https://music.apple.com/us/album/alrighty-aphrodite/
